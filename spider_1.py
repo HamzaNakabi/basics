@@ -3,7 +3,7 @@
 import requests
 import re
 
-target_url = "http://192.168.44.101"
+target_url = ""
 
 def extract_links_from(url):
 	response = requests.get(url)
